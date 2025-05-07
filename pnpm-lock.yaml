@@ -1,0 +1,81 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  turbo:
+    specifier: 2.5.3-canary.2
+    version: 2.5.3-canary.2
+  typescript:
+    specifier: ^5.2.2
+    version: 5.8.3
+
+packages:
+
+  /turbo-darwin-64@2.5.3-canary.2:
+    resolution: {integrity: sha512-gg5aW+Ny/IdPj41RKEGcRPGYPY2c+SFXuwf8ztXRf9KE3H/B1EudLBTW03oHJH3Jxu1XJlrIs3OwUkMNM80crg==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo-darwin-arm64@2.5.3-canary.2:
+    resolution: {integrity: sha512-T88THvGKnm5I8J73TeOD6DDFLdUuWst3aF0ElJcexrDmhNJmae4Dovbtaps5iQoTirqdfAcShqurKbbue5qQqw==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo-linux-64@2.5.3-canary.2:
+    resolution: {integrity: sha512-niPNyt3YDAwe1dd8EEOwid4DYIjdKvXvQ8ABXiFXmwRAAx239338nBBGXf556zDpjOZaiRUCwfMBt+WKtZCumg==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo-linux-arm64@2.5.3-canary.2:
+    resolution: {integrity: sha512-taQClMG6oJoK3HXlzMhi89zxe9pwGomoR5lRuNt1k4ym2Ymw4rqFtT/ghpVu89ZRY7fatWbxLILdN9MdIZgnRQ==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo-windows-64@2.5.3-canary.2:
+    resolution: {integrity: sha512-vDTY60cTS/SejGsra2zsKFVz96O76xaj6APSW1OolGnZyay8zQfTd0HQJ5BtphyGCSvgh6/kQmJv2KyZCrZn+w==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo-windows-arm64@2.5.3-canary.2:
+    resolution: {integrity: sha512-bMJl7pXyOd7WymO1+gQlnJ0+7yQNVXwYSRmVX/BZb9WnFK/e4mKHDy+4honXkfgYXZRlOTyHLwm0704MDh19XQ==}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /turbo@2.5.3-canary.2:
+    resolution: {integrity: sha512-8pds8vQL9088lUx7/zT/YJxrUZ4xzXd6akopoOHmX4ksRGl1zVAeJ+92jKmmyAEIa+blJ7KvCEbnYeKzFt47Mw==}
+    hasBin: true
+    optionalDependencies:
+      turbo-darwin-64: 2.5.3-canary.2
+      turbo-darwin-arm64: 2.5.3-canary.2
+      turbo-linux-64: 2.5.3-canary.2
+      turbo-linux-arm64: 2.5.3-canary.2
+      turbo-windows-64: 2.5.3-canary.2
+      turbo-windows-arm64: 2.5.3-canary.2
+    dev: true
+
+  /typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true

@@ -1,0 +1,14 @@
+{
+  "name": "turborepo-test",
+  "packageManager": "pnpm@9.14.2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "turbo-graph": "turbo run ecs-deploy --dry=json --graph"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "turbo": "2.5.3-canary.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "my-lambda",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo \"I'm building\"",
+    "lambda-deploy": "echo \"I'm deploying\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

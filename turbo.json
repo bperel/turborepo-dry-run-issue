@@ -1,0 +1,13 @@
+{
+    "$schema": "https://turborepo.com/schema.json",
+    "tasks": {
+      "build": {},
+      "lambda-deploy": {
+        "dependsOn": ["build"]
+      },
+      "ecs-deploy": {
+        "dependsOn": ["build"]
+    }
+    }
+  }
+  
